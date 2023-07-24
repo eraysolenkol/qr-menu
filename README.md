@@ -4,6 +4,8 @@
 
 This is a simple app that allows your customers to see your menu easily for your restaurant, bar, or cafe. So your customers can scan the QR code for the website and view your menu on their phones. This app is built with React.
 
+You can take a look at the website [Click Here](https://qr-menu-9lub.onrender.com/).
+
 ## Screenshots
 
 ![Screenshot1](./screenshot.png)
