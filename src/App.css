@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto+Condensed:ital@1&display=swap');body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Teko:wght@300&display=swap');
+body {
   margin: 0px;
   padding: 0px;
 }
@@ -161,7 +162,7 @@
   cursor: pointer;
   outline: none;
   margin-left: 20px;
-  font-family: 'Edu SA Beginner', cursive;
+  font-family: 'Teko', sans-serif;
 }
 
 .open {
