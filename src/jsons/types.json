@@ -1,0 +1,27 @@
+[
+    {
+        "type":"Tatlı",
+        "preview_name":"Tatlılar",
+        "image":"/images/tatlılar.jpg"
+    },
+    {
+        "type":"Döner",
+        "preview_name":"Dönerler",
+        "image":"/images/dönerler.jpeg"
+    },
+    {
+        "type":"Kahve",
+        "preview_name":"Kahveler",
+        "image":"/images/kahveler.jpg"
+    },
+    {
+        "type":"Kahvaltı",
+        "preview_name":"Kahvaltılıklar",
+        "image":"/images/kahvaltiliklar.jpg"
+    },
+    {
+        "type":"İçecek",
+        "preview_name":"İçecekler",
+        "image":"/images/icecekler.jpg"
+    }
+]

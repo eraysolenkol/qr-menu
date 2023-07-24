@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto+Condensed:ital@1&display=swap');body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+  background-color: #212121;
+  border-bottom: 1px solid #ffaa0d;
+  color: #ffaa0d;
+  align-items: center;
+  justify-content: space-around;
+  top: 0px;
+  position: fixed;
+  font-size: 26px;
+  z-index: 100;
+}
+
+.navbar a {
+  margin-right: 10px;
+}
+
+.img-container {
+  margin-top: 70px;
+  background-image: url("/images/food_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: -200;
+  transform: translate3d(0, 0, 0);
+}
+
+.sidenav-img-container {
+  background-image: url("/images/sidebar_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  padding-top: 30px;
+}
+
+.sidenav-img-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.85);
+  z-index: -1;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  color: #ffaa0d;
+  background-color: rgba(25, 24, 24, 0.8);
+  width: 95%;
+  height: 100px;
+  border-radius: 8px;
+  margin-top: 15px;
+  z-index: 3000;
+}
+
+.container {
+  position: relative;
+}
+
+.img-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.75);
+  z-index: -1;
+}
+
+.image img {
+  height: 100px;
+  width: 120px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  opacity: 0.7;
+}
+
+.attr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.attr p {
+  margin-right: 5px;
+}
+
+.money {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 150;
+  top: 0;
+  left: -250px;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+  overflow-x: hidden;
+  transition: transform 0.5s ease;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 32px;
+  color: #ffaa0d;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  margin-left: 20px;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+.open {
+  transform: translateX(250px);
+}
+
+.type-preview {
+  margin-top: 70px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33, 33, 33, 0.7);
+}
+
+.type-preview img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.type-preview p {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image input {
+  z-index: 200;
+  pointer-events: none; 
+}
+
+.type-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-top: 2px dotted #3a3835;
+  border-bottom: 2px dotted #3a3835;
+}

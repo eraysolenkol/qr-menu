@@ -1,0 +1,86 @@
+[
+    {
+        "type": "Döner",
+        "name": "Et Döner",
+        "price": 95.00,
+        "image": "/images/dönerler.jpeg"
+    },
+    {
+        "type":"Tatlı",
+        "name":"Künefe",
+        "price": 70.00,
+        "image": "/images/künefe.jpg"
+    },
+    {
+        "type":"Tatlı",
+        "name":"Halka Tatlısı",
+        "price": 25.00,
+        "image": "/images/halka_tatlisi.jpg"
+    },
+    {
+        "type":"Tatlı",
+        "name":"Havuç Dilimi Baklava",
+        "price": 59.00,
+        "image": "/images/havuç_dilimi_baklava.jpg"
+    },
+    {
+        "type":"Tatlı",
+        "name":"Fincan Tatlısı",
+        "price": 57.00,
+        "image": "/images/fincan_tatlisi.jpg"
+    },
+    {
+        "type":"Tatlı",
+        "name":"Tiramusu",
+        "price": 62.00,
+        "image": "/images/tiramisu.jpg"
+    },
+    {
+        "type":"Kahve",
+        "name":"Latte",
+        "price": 55.00,
+        "image": "/images/latte.png"
+    },
+    {
+        "type":"Kahve",
+        "name":"Espresso",
+        "price": 55.00,
+        "image": "/images/espresso.png"
+    },
+    {
+        "type":"Kahve",
+        "name":"Iced Americano",
+        "price": 57.00,
+        "image": "/images/iced_americano.png"
+    },
+    {
+        "type":"Kahve",
+        "name":"Cappuccino",
+        "price": 57.00,
+        "image": "/images/cappuccino.png"
+    },
+    {
+        "type":"Kahvaltı",
+        "name":"Kahvaltı Tabağı",
+        "price": 105.00,
+        "image": "/images/kahvalti_tabagi.jpg"
+    },
+    {
+        "type":"Kahvaltı",
+        "name":"Tost",
+        "price": 55.00,
+        "image": "/images/tost.jpg"
+    },
+    {
+        "type":"İçecek",
+        "name":"Ayran",
+        "price": 15.00,
+        "image": "/images/ayran.png"
+    },
+    {
+        "type":"İçecek",
+        "name":"Coca Cola",
+        "price": 25.00,
+        "image": "/images/cola.png"
+    }
+]
